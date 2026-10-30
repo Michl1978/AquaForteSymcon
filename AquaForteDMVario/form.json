@@ -1,0 +1,30 @@
+{
+    "elements": [
+        {
+            "type": "ValidationTextBox",
+            "name": "Host",
+            "caption": "IP-Adresse der Pumpe"
+        },
+        {
+            "type": "NumberSpinner",
+            "name": "PollInterval",
+            "caption": "Statusabfrage alle",
+            "suffix": "Sekunden (0 = nur bei Änderungen)",
+            "minimum": 0,
+            "maximum": 3600
+        }
+    ],
+    "actions": [
+        {
+            "type": "Button",
+            "caption": "Status jetzt lesen",
+            "onClick": "AQFDM_ReadStatus($id);"
+        },
+        {
+            "type": "Button",
+            "caption": "Neu verbinden",
+            "onClick": "AQFDM_Reconnect($id);"
+        }
+    ],
+    "status": []
+}

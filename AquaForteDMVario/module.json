@@ -1,0 +1,18 @@
+{
+    "id": "{142D9F86-B468-4F77-BEE1-B767C1623A7E}",
+    "name": "AquaForte DM Vario",
+    "type": 3,
+    "vendor": "AquaForte",
+    "aliases": [],
+    "parentRequirements": ["{3CFF0FD9-E306-41DB-9B5A-9D06D38576C3}"],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "AQFDM",
+    "url": "",
+    "status": [
+        { "code": 101, "icon": "inactive", "caption": "Instanz wird erstellt" },
+        { "code": 102, "icon": "active",   "caption": "Pumpe verbunden" },
+        { "code": 104, "icon": "inactive", "caption": "Instanz ist inaktiv" },
+        { "code": 201, "icon": "error",    "caption": "Pumpe nicht erreichbar oder Login fehlgeschlagen" }
+    ]
+}
